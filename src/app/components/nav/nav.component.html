@@ -1,0 +1,76 @@
+<!-- header -->
+<header class="container sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparency" >
+
+        <a class="navbar-brand ps-5 pe-5" [routerLink]="['/inicio']" routerLinkActive="router-link-active">
+            <img src="../../../assets/img/logo.png" alt="QualitySeal" width="120" height="auto">
+        </a>
+      
+        <button
+        class="navbar-toggler me-5"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#MenuNavegacion"
+        aria-controls="MenuNavegacion"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>      
+
+        <div
+        class="collapse navbar-collapse"
+        id="MenuNavegacion">
+
+            <ul class="navbar-nav me-5 mb-3 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active me-3" aria-current="page" [routerLink]="['/inicio']" routerLinkActive="router-link-active">Inicio</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-3" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" [routerLink]="['/producto']" routerLinkActive="router-link-active" >Sellos de plástico</a>
+                        <a class="dropdown-item disabled" >Sellos de cable</a>
+                        <a class="dropdown-item disabled" >Sellos de perno</a>
+                        <a class="dropdown-item disabled" >Sellos de medición</a>
+                        <a class="dropdown-item disabled" >Sellos metálicos</a>
+                        <a class="dropdown-item disabled" >Sujetables y pinzas</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-3" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clasificación</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item disabled" href="#">Indicativos</a>
+                        <a class="dropdown-item disabled" href="#">Seguridad</a>
+                        <a class="dropdown-item disabled" href="#">Alta Seguridad</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link me-3" [routerLink]="['/promociones']" routerLinkActive="router-link-active">Promociones</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-3" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">La empresa</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" [routerLink]="['/disenio']" routerLinkActive="router-link-active">Diseño</a>
+                        <a class="dropdown-item disabled" >Fabricación</a>
+                        <a class="dropdown-item disabled" >Distribución</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link me-3" [routerLink]="['/contacto']" routerLinkActive="router-link-active">Contacto</a>
+                </li>
+
+            </ul>            
+
+        </div>
+
+    </nav>
+</header>
+
+
+
+

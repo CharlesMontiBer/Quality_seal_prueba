@@ -1,0 +1,109 @@
+.container {
+    background-image: url(../../../assets/img/f-disenio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* paneles*/
+.panel {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.panel h2 {
+    color: white;
+    font-weight: bold;
+}
+.panel p {
+    color: white;
+    font-weight: 500;
+}
+
+
+
+/* modal */
+.boton-modal button {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(2px);
+    border: solid 2px crimson;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: .3s;
+}
+.boton-modal button:hover {
+    box-shadow: 0 5px 50px crimson inset, 0 5px 50px crimson inset, 0 5px 50px crimson ;
+    transform: scale(1.2);
+    text-shadow: 0 0 5px white, 0 0 5px white;
+}
+.ventana-modal, .modal-dialog {
+    background: transparent;
+}
+.modal-content {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(1px);
+}
+.modal-body .card-body, form {
+    background: transparent;
+}
+
+
+
+
+
+
+/* card */
+.box-disenio {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(1px);
+    transition: all 300ms;
+}
+
+.box-disenio:hover {
+    transform: translateY(-10px);
+}
+.box-disenio:hover .capa-card img {
+    transform: scale(1.2);
+}
+.capa-card {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.capa-card img {
+    width: 110%;
+    transition: all 300ms;
+}
+.box-disenio h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+}
+.box-disenio p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}

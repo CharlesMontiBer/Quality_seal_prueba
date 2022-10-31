@@ -1,0 +1,16 @@
+nav {
+    background-color: white;
+    box-shadow: 1px 5px 5px gray;    
+    padding: 20px;
+}
+ul li a {
+    font-weight: 500;
+    border-bottom: solid white;
+
+}
+ul li a:hover {
+    color: crimson;
+    font-weight: 500;
+    border-bottom: solid crimson;
+
+}

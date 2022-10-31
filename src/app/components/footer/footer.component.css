@@ -1,0 +1,32 @@
+/* footer */
+.footer {
+    min-height: 40vh;
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to right, #f9d423 0%,#dc143c 50%, #242c4c 100%);    
+    color: white;
+}
+.columna {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.logo img {
+width: 300px;
+height: auto;
+}
+.contacto p {    
+    line-height: 1;
+}
+.redes-logos a {
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    transition: ease .3s;
+}
+.redes-logos a:hover {
+    transform: scale(1.2);
+    color: yellow;    
+}

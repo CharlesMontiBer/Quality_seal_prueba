@@ -1,0 +1,33 @@
+.pnf-404 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pnf-404 h1 {
+    font-size: 8rem;
+    color: crimson;
+}
+.pnf-404 p {
+    color: gray;
+}
+.pnf-404 i {
+    color: crimson;
+}
+.pnf-404 button {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #f9d423 0%, #dc143c 100%);
+    transition: ease .5s;
+}
+.pnf-404 button:hover {
+    width: 200px;
+    letter-spacing: 2px;
+
+}

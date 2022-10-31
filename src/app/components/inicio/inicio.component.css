@@ -1,0 +1,309 @@
+span {
+    color: crimson;
+    font-weight: bold;
+}
+#hero {
+    min-height: 80vh;
+    position: relative;
+}
+
+.pt1 {
+    padding: 150px;
+    position: relative;
+    z-index: 102;
+}
+.pt1 h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 700;
+}
+.pt1 p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .9;
+    mix-blend-mode: overlay;
+}
+
+
+/* modal */
+.modal-body {
+    background: rgba(0, 0, 0, 0.13);
+}
+.boton-modal {
+    background-image: url(../../../assets/img/ctzcn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.boton-modal button {
+    width: auto;
+    height: 60px;
+    background: crimson;
+    border: none;
+    font-weight: bold;
+    border-radius: 15px;    
+    transition: ease .3s;
+}
+.boton-modal button:hover {
+    transform: scale(1.1);
+}
+.ventana-modal {
+    width: 100%;
+    height: 100%;
+}
+.boton-enviar-modal {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.boton-enviar-modal button {    
+    width: 20%;
+    height: 40px;
+    border-radius: 25px;
+    border: solid 1px crimson;
+    color: crimson;
+    background: white;
+    font-weight: 500;
+    transition: ease .3s;
+}
+.boton-enviar-modal button:hover {    
+    width: 40%;
+    background: crimson;
+    color: white;
+}
+
+/* cards */
+
+.encabezado-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.encabezado-cards h2 {
+    color: crimson;
+    font-weight: bold;
+}
+.card-box {    
+    border: none;
+    width: 100%;
+    height: 450px;
+}
+.card-box:hover {    
+    box-shadow: 5px 5px 30px rgba(0,0,0,.8);
+    transition: ease .3s;
+    transform: translateY(-2%);
+}
+
+.card-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-body a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* bazzoka */
+.bazzoka {
+    width: 100%;
+    height: auto;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+.bazzoka img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+.bazzoka h2 {
+    color: crimson;
+    font-weight: bold;
+}
+.bazzoka h5 {
+    font-weight: bold;
+}
+
+/* colores */
+.colores-acordeon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.colorcrcl{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: gray;
+    box-shadow: 2px 2px 5px black;
+}
+.color-verde {
+    background: green;
+}
+.color-rojo {
+    background: red;
+}
+.color-blanco {
+    background: white;
+    border: solid 1px gray;
+}
+.color-azul {
+    background: blue;
+}
+.color-amarillo {
+    background: yellow;
+}
+.color-negro {
+    background: black;
+}
+
+/* nosotros */
+.ns-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+}
+.btn-sbrms {
+    border: solid 1px crimson;
+    color: crimson;
+    font-weight: bold; 
+    background: white;
+    width: 120px; 
+    height: 30px; 
+    text-decoration: none;
+}
+.btn-sbrms:hover {
+    background-color: crimson;
+    color: white; 
+}
+.ns-img {
+    display: flex;
+    justify-content: center;
+}
+.ns-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* banner wsp */
+.msn-content {
+    height: 284px;
+    width: 100%;
+    background-image: url(../../../assets/img/panel-wsp.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    text-align: center;
+    flex-direction: column;
+}
+.msn-content h4 {
+    color: white;
+    font-size: bold;
+}
+.btn-wsp {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 40px;
+    text-align: center;
+    color: #00bb2d;
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    overflow: hidden;
+    transition: .2s;
+}
+.btn-wsp:hover {
+    background-color: #00bb2d;
+    box-shadow: 0 0 10px #00bb2d, 0 0 40px #00bb2d, 0 0 80px #00bb2d;
+    color: white;
+    transform: scale(1.2);
+    transition-delay: 1s;
+}
+.btn-wsp span {
+    position: absolute;
+    display: block;
+}
+.span1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00bb2d);
+}
+.btn-wsp:hover .span1 {
+    left: 100%;
+    transition: 1s;
+}
+.span3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #00bb2d);
+}
+.btn-wsp:hover .span3 {
+    right: 100%;
+    transition: 1s;    
+    transition-delay: 0.5s;
+}
+.span2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #00bb2d);
+}
+.btn-wsp:hover .span2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.span4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #00bb2d);
+}
+.btn-wsp:hover .span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
